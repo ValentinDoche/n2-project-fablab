@@ -20,7 +20,7 @@ void setup() {
 
   ledcSetup(15, 10000, 10);
   ledcAttachPin(14, 15);
-  ledcWrite(15, 512);
+  ledcWrite(15, 0);
 
   ledcSetup(14, 5000, 8);
   ledcAttachPin(4, 14);
