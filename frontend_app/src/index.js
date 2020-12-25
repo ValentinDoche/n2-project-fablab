@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'materialize-css/dist/js/materialize.min';
+
+document.body.classList.add("has-fixed-sidenav")
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var options = {}
+    var instances = M.Sidenav.init(elems, options);
+});
 
 ReactDOM.render(
   <React.StrictMode>
