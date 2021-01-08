@@ -1,0 +1,21 @@
+main{
+    position: absolute;
+    left: 60px;
+    top: 0;
+    z-index: 2;
+    padding: 10px;
+    transition: 0.5s;
+    width: calc(100vw - 80px);
+}
+main.active{
+    left: 300px;
+    width: calc(100vw - 320px);
+}
+@media (max-width: 767px) {
+    main{
+        left: 0;
+    }
+    main.active{
+        left: 0;
+    }
+}

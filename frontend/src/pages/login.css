@@ -1,0 +1,59 @@
+.login {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login .login-box {
+  padding: 20px;
+  background: #3e0748;
+  height: 360px;
+  width: 360px;
+  border-radius: 50px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 7px 1px black;
+  -moz-box-shadow: 0px 0px 7px 1px black;
+  box-shadow: 0px 0px 7px 1px black;
+}
+.login .login-box img {
+  max-height: 100px;
+}
+.login .login-box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.login .login-box form label {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.login .login-box form input {
+  background: rgba(255, 255, 255, 0.1);
+  width: 200px;
+  border: 1px solid #FFF;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.login .login-box form input:focus {
+  border: none;
+}
+.login .login-box form button {
+  margin: 5px;
+  background: #ea1d63;
+  border: none;
+  padding: 10px;
+  border-radius: 20px 0px 20px 0px;
+  transition: 0.5s;
+}
+.login .login-box form button:hover {
+  border-radius: 0px 20px 0px 20px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=login.css.map */
